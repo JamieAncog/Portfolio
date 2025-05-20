@@ -1,0 +1,112 @@
+:root {
+	--main-color: #BCFBB7;
+	--bg-color: #132B3C;
+	--sub-color: #377BA8;
+	--text-color: #BCFBB7;;
+}
+
+#page {
+ 	width: 100%;
+}
+
+#leftside {
+	left: 2%;
+}
+
+#rightside {
+	right: 2%;
+}
+
+#container {
+	margin: auto;
+	width: 60%;
+}
+
+@font-face {
+    font-family: 'Array-SemiboldWide';
+    src: url('Array-SemiboldWide.otf');
+}
+
+@font-face {
+    font-family: 'Array-Regular';
+    src: url('Array-Regular.otf');
+}
+ 
+body {
+    color: var(--main-color);
+    background-color: var(--bg-color);
+    font-family: 'Array-Regular';
+    font-size: 20px;
+}
+
+.side {
+	position: absolute;
+	width: 16%;
+	height: 200%;
+	font-size: 30px;
+	line-height: 0.5;
+}
+
+.subheading {
+	font-family: 'Array-SemiboldWide';
+	color: var(--main-color);
+	display: flex;
+  	justify-content: center;
+  	border: 2px outset var(--text-color);
+	border-radius: 40px;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.heading {
+	font-family: 'Array-SemiboldWide';
+	color: var(--main-color);
+	display: flex;
+  	justify-content: center;
+	border-radius: 40px;
+	border: 2px outset var(--text-color);
+	font-size: 45px;
+	padding: 10px;
+}
+
+.section {
+	color: var(--text-color);
+}
+
+.projectrow {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5%;
+}
+
+button {
+	color: var(--text-color);
+    background-color: var(--bg-color);
+    font-family: 'Array-SemiboldWide';
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px outset var(--text-color);
+}
+
+button:hover {
+	color: var(--bg-color);
+    background-color: var(--text-color);
+    border: 2px outset var(--bg-color);
+}
+
+.project {
+	color: var(--main-color);
+	font-family: 'Array-SemiboldWide';
+	border-radius: 15px;
+	width: 47%;
+	padding: 6.5px;
+	font-size: 25px;
+	border: 2px outset var(--text-color);
+}
+
+.projectdescription {
+	color: var(--text-color);
+	font-size: 15px;
+	
+}
+
